@@ -1,5 +1,15 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "iBicha",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "com.ibicha"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.ibicha.youtube": "3.3.0",
     "com.singularitygroup.hotreload": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.13.1",
     "com.tomduchene.unity-git-locks": "https://github.com/TomDuchene/unity-git-locks.git",
     "com.unity.ai.navigation": "2.0.6",
