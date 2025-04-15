@@ -1,0 +1,53 @@
+## Unity ##
+
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+
+*.mat merge=unityyamlmerge eol=lf linguist-generated=true
+*.anim merge=unityyamlmerge eol=lf linguist-generated=true
+*.unity merge=unityyamlmerge eol=lf linguist-generated=true
+*.prefab merge=unityyamlmerge eol=lf linguist-generated=true
+*.physicsMaterial2D merge=unityyamlmerge eol=lf linguist-generated=true
+*.physicMaterial merge=unityyamlmerge eol=lf linguist-generated=true
+*.asset merge=unityyamlmerge eol=lf linguist-generated=true
+*.meta merge=unityyamlmerge eol=lf linguist-generated=true
+*.controller merge=unityyamlmerge eol=lf linguist-generated=true
+
+# Image
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.psd binary
+*.ai binary
+*.tif binary
+
+# Audio
+*.mp3 binary
+*.wav binary
+*.ogg binary
+
+# Video
+*.mp4 binary
+*.mov binary
+
+# 3D Object
+*.FBX binary
+*.fbx binary
+*.blend binary
+*.obj binary
+
+# ETC
+*.a binary
+*.exr binary
+*.tga binary
+*.pdf binary
+*.zip binary
+*.dll binary
+*.unitypackage binary
+*.aif binary
+*.ttf binary
+*.rns binary
+*.reason binary
+*.lxo binary
